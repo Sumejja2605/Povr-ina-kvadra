@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Povrsina kvadra</title>
+	
+</head>
+<body>
+  <script type="text/javascript">
+   
+   
+	function myFunction(a,b,c){
+ 
+   window.alert("Izracunaj površinu kvadra");
+
+
+   a=parseInt(prompt("Unesite stranicu a: "));
+   b=parseInt(prompt("Unesite stranicu b: "));
+   c=parseInt(prompt("Unesite stranicu c: "));
+
+
+		
+
+    if(((a != 0)&&(a>0)) && ((b != 0)&&(b>0)) && ((c!=0)&&(c>0))){
+       var povrsina=2*(a*b+a*c+b*c);
+
+         window.alert("Površina kvadra je:"  + povrsina );      
+         
+    }else{
+             
+      window.alert("Molimo vas da unesete broj veći od nule.");   
+    }
+    
+}
+
+myFunction();
+
+
+</script>
+
+</body>
+</html>
